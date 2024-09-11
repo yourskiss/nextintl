@@ -2,6 +2,8 @@ import {NextIntlClientProvider} from 'next-intl';
 import {getLocale, getMessages} from 'next-intl/server';
 import NavigationComponent from '../../navigation';
 
+import "./style.css";
+
 export default async function RootLayout({
   children
 }: {
